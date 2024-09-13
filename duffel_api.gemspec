@@ -5,17 +5,17 @@ require_relative "lib/duffel_api/version"
 Gem::Specification.new do |spec|
   spec.name          = "duffel_api"
   spec.version       = DuffelAPI::VERSION
-  spec.authors       = ["The Duffel team"]
-  spec.email         = ["help@duffel.com"]
+  spec.authors       = ["Tim Rogers", "Sasha Gerrand"]
+  spec.email         = ["dufel-api-ruby@sgerrand.dev"]
 
   spec.summary       = "A Ruby client for interacting with the Duffel API"
-  spec.homepage      = "https://github.com/duffelhq/duffel-api-ruby"
+  spec.homepage      = "https://github.com/sgerrand/duffel-api-ruby"
   spec.license       = "MIT"
   spec.required_ruby_version = ">= 2.7.0"
 
   spec.metadata["homepage_uri"] = spec.homepage
   spec.metadata["source_code_uri"] = spec.homepage
-  spec.metadata["changelog_uri"] = "https://github.com/duffelhq/duffel-api-ruby/blob/main/CHANGELOG.md"
+  spec.metadata["changelog_uri"] = "https://github.com/sgerrand/duffel-api-ruby/blob/main/CHANGELOG.md"
 
   # Specify which files should be added to the gem when it is released.
   # The `git ls-files -z` loads the files in the RubyGem that have been added into git.
