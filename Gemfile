@@ -10,7 +10,7 @@ group :development, :test do
   gem "gc_ruboconfig", "~> 5.0.1"
   gem "pry", "~> 0.14.1"
   gem "rake", "~> 13.0"
-  gem "rspec", "~> 3.12.0"
+  gem "rspec", "~> 3.13.0"
   gem "rspec-its", "~> 1.3.0"
   gem "rspec_junit_formatter", "~> 0.6.0"
   gem "rubocop", "~> 1.66.1"
