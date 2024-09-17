@@ -1,6 +1,6 @@
 # Duffel API Ruby client library
 
-[![RubyDoc.info documentation](http://img.shields.io/badge/yard-docs-blue.svg)](https://rubydoc.info/github/duffelhq/duffel-api-ruby)
+[![RubyDoc.info documentation](http://img.shields.io/badge/yard-docs-blue.svg)](https://rubydoc.info/github/sgerrand/duffel-api-ruby)
 
 A Ruby client library for the [Duffel API](https://duffel.com/docs/api).
 
@@ -27,7 +27,7 @@ You can install `duffel_api` outside of the context of a project by running `gem
 
 ## Usage
 
-You can see a complete end-to-end example of searching and booking using the client library in [`example/search_and_book.rb`](https://github.com/duffelhq/duffel-api-ruby/blob/main/examples/search_and_book.rb).
+You can see a complete end-to-end example of searching and booking using the client library in [`example/search_and_book.rb`](https://github.com/sgerrand/duffel-api-ruby/blob/main/examples/search_and_book.rb).
 
 ### Initialising the client
 
@@ -60,7 +60,7 @@ client.offers
 client.payment_intents
 ```
 
-__To see what actions are available for each resource, check out the definitions for the service classes [here](https://github.com/duffelhq/duffel-api-ruby/tree/main/lib/duffel_api/services).__
+__To see what actions are available for each resource, check out the definitions for the service classes [here](https://github.com/sgerrand/duffel-api-ruby/tree/main/lib/duffel_api/services).__
 
 ### Creating a record
 
@@ -193,7 +193,7 @@ When the Duffel API returns an error, the library will raise an exception.
 
 We have an exception class for each of the possible `type`s of error which the API can return, documented [here](https://duffel.com/docs/api/overview/errors) in the API reference. For example, if the API returns an error with `type` `invalid_state_error`, the library will raise a `DuffelAPI::Errors::InvalidStateError` exception.
 
-You can find all of those error classes [here](https://github.com/duffelhq/duffel-api-ruby/tree/main/lib/duffel_api/errors).
+You can find all of those error classes [here](https://github.com/sgerrand/duffel-api-ruby/tree/main/lib/duffel_api/errors).
 
 You can rescue all of these errors and get important information with them using instances methods: `#message`, `#title`, `#code`, `#request_id`, etc.
 
@@ -241,4 +241,4 @@ end
 ## Learn more
 
 You can find complete documentation on this library's classes and methods in the in-code
-documentation on [RubyDoc.info](https://rubydoc.info/github/duffelhq/duffel-api-ruby).
+documentation on [RubyDoc.info](https://rubydoc.info/github/sgerrand/duffel-api-ruby).
