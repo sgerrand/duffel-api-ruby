@@ -16,6 +16,6 @@ group :development, :test do
   gem "rubocop", "~> 1.66.1"
   gem "rubocop-rake", "~> 0.6.0"
   gem "simplecov", "~> 0.22.0"
-  gem "webmock", "~> 3.23.1"
+  gem "webmock", "~> 3.24.0"
   gem "yard", "~> 0.9.27"
 end
